@@ -63,7 +63,7 @@ const nextISSTimesForMyLocation = cb => {
     if (err) {
       cb(err, null);
       return;
-    }B
+    }
     fetchCoordsByIP(ip, (err, data) => {
       if(err) {
         cb(err, null);
